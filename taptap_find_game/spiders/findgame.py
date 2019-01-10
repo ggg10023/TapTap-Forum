@@ -6,7 +6,7 @@ from taptap_find_game.items import TaptapFindGameItem
 class FindgameSpider(scrapy.Spider):
     name = 'findgame'
     allowed_domains = ['www.tatap.com']
-    start_urls = ['https://www.taptap.com/topic/4113542?order=desc']
+    start_urls = ['https://www.taptap.com/topic/4113542?order=desc'] #起始链接，在官方网址https://www.taptap.com/forum/g26中找到最新的一条链接，作为起始链接。
 
     #def start_requests(self):
        # base_url ='https://www.taptap.com/forum/g26?type=all&sort=created&page={}'
