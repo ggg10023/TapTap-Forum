@@ -13,7 +13,7 @@ TapTap 求游戏论坛爬虫。
 
 ## 分词脚本
 在python3环境下：
-将分词数据`text.txt'放在`wordCount.py`同目录文件夹中。
+将分词数据`text.txt`放在`wordCount.py`同目录文件夹中。
 
 执行`python wordCount.py`，生成分词结果。
 
